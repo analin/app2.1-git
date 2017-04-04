@@ -1,0 +1,341 @@
+﻿<!doctype html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>Segunda Aplicacion</title>
+ 
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema-app2.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ <style type="text/css">
+ body,td,th {
+	font-family: "Comic Sans MS", cursive;
+	color: #000;
+}
+ body {
+	background-color: #FFF;
+}
+ </style>
+ <!--grupo JavaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <script src="js/acciones.js"></script>
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ 
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+ <body onLoad="MM_preloadImages('imagenes/definicion2.png','imagenes/telefonofexible.jpg','imagenes/curva2.png','imagenes/mivistar.png','imagenes/telcel.png')">
+
+ <div data-role="page" id="Principal" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-theme="c">
+   <h1>Telefonía celular</h1>
+  </div>
+   <div data-role="main" class="ui-content">
+   </div>
+   <div>
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>¿Qué es un teléfono celular?</h2>
+      <p>Definición</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Historía del teléfono</h2>
+      <p>Orden cronológico del desarrollo del teléfono.</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Clasificación de los celulares por gama.</h2>
+      <p>Clasificación.</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Companias en México que manejan el servicio de telefonia celular..</h2>
+      <p>Telefonía móvil en México.</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Teléfonos del futuro.</h2>
+      <p>Avances Recientes.</p>
+     </a>
+    </li>
+    </ul>
+   </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+     <h4>Aplicacion Dos</h4>
+     <h4>Ana Lilia Fabian Garcia</h4>
+    </div>
+   </div>
+  
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/curva2.png" alt="curva2" title="curva2" id="wows1_0"/></li>
+		<li><img src="data1/images/telefonofexible.jpg" alt="telefonofexible" title="telefonofexible" id="wows1_1"/></li>
+		<li><img src="data1/images/definicion1.png" alt="definicion1" title="definicion1" id="wows1_2"/></li>
+		<li><img src="data1/images/definicion2.png" alt="definicion2" title="definicion2" id="wows1_3"/></li>
+		<li><img src="data1/images/proyectoara.jpg" alt="proyectoAra" title="proyectoAra" id="wows1_4"/></li>
+		<li><img src="data1/images/curva1.png" alt="curva1" title="curva1" id="wows1_5"/></li>
+		<li><img src="data1/images/logo.png" alt="logo" title="logo" id="wows1_6"/></li>
+		<li><img src="data1/images/definicion3.png" alt="definicion3" title="definicion3" id="wows1_7"/></li>
+		<li><img src="data1/images/flexible2.png" alt="flexible2" title="flexible2" id="wows1_8"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/gama_alta.png" alt="bootstrap slider" title="gama_alta" id="wows1_9"/></a></li>
+		<li><img src="data1/images/definicion4.png" alt="definicion4" title="definicion4" id="wows1_10"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="curva2"><span><img src="data1/tooltips/curva2.png" alt="curva2"/>1</span></a>
+		<a href="#" title="telefonofexible"><span><img src="data1/tooltips/telefonofexible.jpg" alt="telefonofexible"/>2</span></a>
+		<a href="#" title="definicion1"><span><img src="data1/tooltips/definicion1.png" alt="definicion1"/>3</span></a>
+		<a href="#" title="definicion2"><span><img src="data1/tooltips/definicion2.png" alt="definicion2"/>4</span></a>
+		<a href="#" title="proyectoAra"><span><img src="data1/tooltips/proyectoara.jpg" alt="proyectoAra"/>5</span></a>
+		<a href="#" title="curva1"><span><img src="data1/tooltips/curva1.png" alt="curva1"/>6</span></a>
+		<a href="#" title="logo"><span><img src="data1/tooltips/logo.png" alt="logo"/>7</span></a>
+		<a href="#" title="definicion3"><span><img src="data1/tooltips/definicion3.png" alt="definicion3"/>8</span></a>
+		<a href="#" title="flexible2"><span><img src="data1/tooltips/flexible2.png" alt="flexible2"/>9</span></a>
+		<a href="#" title="gama_alta"><span><img src="data1/tooltips/gama_alta.png" alt="gama_alta"/>10</span></a>
+		<a href="#" title="definicion4"><span><img src="data1/tooltips/definicion4.png" alt="definicion4"/>11</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>Definición:</h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+      <p>Se conoce como celular al dispositivo inalámbrico  electrónico que está preparado para tener acceso a la telefonía celular,  también conocida como móvil.<br>
+        Existen teléfonos celulares que tienen  mas funcionalidades, a estos dispositivos se les conoce como:<br>
+        SmartPhone.<br>
+      Un smartphone es un teléfono móvil que  incorpora características de una computadora personal. Los smartphones suelen  permitir al usuario instalar nuevas aplicaciones, aumentando así sus  funcionalidades. Esto es posible porque ejecutan un sistema operativo potente  de fondo. Pueden incluir un mini teclado físico, una ser completamente una  pantalla táctil o tener un lápiz óptico. Los smartphone incluyen acceso a  internet por wi-fi e red celular, servicios de e-mail, cámara integrada de gran  potencia, navegador web, procesador de textos, agenda, GPS, videojuegos, etc.  También incorporan, por supuesto, la posibilidad de enviar y recibir llamadas  telefónicas a través de la red inalámbrica celular.</p>
+<h2 class="table-stroke">&nbsp;</h2>
+    </div>
+    <div>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('telefono','','imagenes/definicion2.png',1)"><img src="imagenes/definicion1.png" width="128" height="128" id="telefono"></a> </div>
+     <div data-role="collapsible" data-content-theme="false">
+    <h1>Imágen:</h1>
+     <div>
+      <p>Este es un ejemplo de un teléfono celular:</p>
+      <br>
+     </div>
+     <div>
+      <img src="imagenes/definicion3.png" >
+     </div>
+    </div>
+
+   </div>
+   <div data-role="footer" data-theme="c" data-position="fixed">
+    <h4>Aplicacion Dos, ALFG</h4>
+   </div>
+ </div>
+  
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>Historia del telefono celular:</h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+     <h2></h2>
+     <p>La telefonia celular ha tenido varios avances, a travès de los años han surgido diferentes modelos de telefonos celulares, estos dispositivos fueron cambiando completamante.</p>
+     <p>Los cambios incluyeron diferentes aspectos tanto estèticos como funcionales.</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+     <div data-role="collapsible" data-content-theme="false">
+    <h1>Imágen:</h1>
+     <div>
+      <p>Aqui les mostramos la historia y avances de la gtelefonia celular en una lìnea del tiempo.</p>
+      <br>
+     </div>
+     <div><img src="imagenes/historia.png" width="357" height="222"></div>
+    </div>
+    </div>
+   </div>
+   <div data-role="footer" data-theme="c" data-position="fixed">
+    <h4>Aplicacion Dos, ALFG</h4>
+   </div>
+ </div>
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>Clasificación por gama:</h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+      <p>Esta clasificaciòn se enfoca màs en los precios y claro en la calidad del dispositivo.</p>
+      <p>A continuaciòn se les presentara una tabla comparativa de las caracterìsticas en la clasificacion por gama.</p>
+      <table border="1" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="219" valign="top" bgcolor="#999999"><p><strong>Gama Alta</strong></p></td>
+          <td width="219" valign="top" bgcolor="#9966CC"><p><strong>Gama Alta </strong></p></td>
+          <td width="219" valign="top" bgcolor="#666666"><p><strong>Gama Alta </strong></p></td>
+        </tr>
+        <tr>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Pantallas    de 4 pulgadas en adelante</p>
+            <p>Memoria    interna desde 16GB</p></td>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Tienen    soporte limitado pero existe comunidad de desabolladores para actualizar con    una ROM.</p></td>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Suelen    ser pequeños.</p></td>
+        </tr>
+        <tr>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Soporte    de actualizaciones (las recibe antes pero depende de la marca)</p>
+            <p>Diseñados    para redes 4G</p></td>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Generalmente no    superan los 500 dólares en precio (como mucho).</p>
+            <p>&nbsp;</p></td>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Tienen funciones    básicas o las funciones que traen ya no están a la altura de un SmartPhone    (ej:nokia).</p></td>
+        </tr>
+        <tr>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Muchos    núcleos, procesadores y RAM para que sean muy rápidos</p>
+            <p>Cámaras    de calidad desde 8 Mpx</p></td>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Tienen    algunas funciones de la gama alta del momento.</p></td>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Precios    muy economicos.</p></td>
+        </tr>
+        <tr>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Destacan    por ser relativamente delgados</p>
+            <p>Se    conectan con la TV</p></td>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Pantallas que no    superan las 4.5 pulgadas (en promedio).</p>
+            <p>&nbsp;</p></td>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Características muy    limitadas (cámara VGA, memoria interna, sin flash, se ponen muy lentos con el    tiempo).</p></td>
+        </tr>
+        <tr>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Eficiencia    energética.</p></td>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>Cámaras    de 3 a 5&nbsp;Mpx</p></td>
+          <td width="219" valign="top" bgcolor="#99CCFF"><p>No    reciben soporte ni actualizaciones.</p></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <h2>&nbsp;</h2>
+      <div data-role="collapsible" data-content-theme="false">
+    <h1>Imágen:</h1>
+     <div>
+      <p>Clasificaciòn por gama:</p>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <p>GAMA BAJA</p>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+      <p><img src="imagenes/gama_baja.png" width="308" height="163" alt="baja"></p>
+      <p><img src="imagenes/gamamedia.png" width="281" height="179" alt="media"></p>
+      <p>GAMA ALTA.</p>
+      <p><img src="imagenes/gama_alta.png" width="266" height="190" alt="alta"></p>
+      <br>
+     </div>
+     <div></div>
+    </div>
+    </div>
+   </div>
+   <div data-role="footer" data-theme="c" data-position="fixed">
+    <h4>Aplicacion Dos, ALFG</h4>
+   </div>
+ </div>
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>Companias en México que manejan el servicio de telefonía celular.</h1>
+   </div>
+   <div data-role="content" align="center">
+   </div>
+    <div>
+      <p>&nbsp;</p>
+      <p>Las companias que hoy en dà nos ofrecen un servicio para  darle vida a nuestro dispositivo, ya que estos requieren estar conectados auna  red y asi poder realizar llamadas, navegar por internet, etc.</p>
+      <p><br>
+        <a href="http://www.telcel.com/" target="_self">Telcel:</a> con un 72.23% de cobertura en el país.Telcel&nbsp;es  una marca propiedad de la empresa mexicana&nbsp;Radiomóvil DIPSA, S.A. de C.V..  Tiene presencia en todo México y se dedica a ofrecer servicios  de&nbsp;telefonía móvil,&nbsp;telefonía fija, servicios de&nbsp;banda ancha,  entre otros servicios.</p>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','imagenes/telcel.png',1)"><img src="imagenes/telcel2.jpg" width="251" height="200" id="Image"></a></p>
+      <p>&nbsp;</p>
+      <p><a href="http://www.movistar.com.mx/" target="_self">Movistar:</a>        con un 56.78% de cobertura en el país. En  2008,&nbsp;Movistar&nbsp;entabla una alianza con&nbsp;Maxcom Telecomunicaciones  S.A.B de C.V&nbsp;para proveerle de servicios de&nbsp;Telefonía Móvil&nbsp;a  los suscriptores del servicio de&nbsp;Maxcom. Hasta la fecha, dicho acuerdo se  mantiene vigente y tienen una base de más de 45,000 líneas móviles del servicio  de&nbsp;MaxcomCel. Maxcom fue el primer operador CUÁDRUPLE PLAY en México al  ofrecer planes de Voz Fija, Móvil, Internet y TV y el primero en considerarse  OMV.</p>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','imagenes/mivistar.png',1)"><img src="imagenes/movistar2.jpg" width="265" height="190" id="Image36"></a></p>
+      <p><br>
+      </p>
+      <p><a href="https://www.att.com.mx/">AT&T:</a>operando bajo&nbsp;CDMA&nbsp;(Digital)  y&nbsp;EV-DO&nbsp;(3G sobre CDMA),&nbsp;GSM&nbsp;(2G),&nbsp;GPRS&nbsp;(2.5G),&nbsp;EDGE&nbsp;(2.75G),&nbsp;UMTS&nbsp;(3G),&nbsp;HSPA+&nbsp;(3.9G)  y&nbsp;4G&nbsp;LTE&nbsp;(en algunas ciudades solamente), utiliza  también&nbsp;iDEN&nbsp;y&nbsp;HSDPA, con un 73.54% de cobertura en el país.  AT&amp;T compro las compañias de:UNEFON, IUSACEL, entre otrso.AT&amp;T es el  operador con mejor desempeño en términos generales, por encima de Movistar y  Telcel.</p>
+      <p>&nbsp;</p>
+<h2 class="table-stroke">&nbsp;</h2>
+     <div data-role="collapsible" data-content-theme="false">
+    <h1>Imágen:</h1>
+     <div>
+      <p></p>
+      <br>
+     </div>
+     <div><img src="imagenes/atyt.png" ></div>
+    </div>
+    </div>
+
+   <div data-role="footer" data-theme="c" data-position="fixed">
+    <h4>Aplicacion Dos, ALFG</h4>
+   </div>
+  </div>
+  
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>Teléfonos del futuro.</h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+      <p>Aqui le mostraremos algunas tendencias en cuanto a la telefonia celular del futuro.</p>
+      <p>1.-Las&nbsp;pantallas flexibles, con cristales capaces de  doblarse a voluntad del usuario. Desde luego, hablamos de algo con lo que  llevamos soñando&nbsp;muuuuucho&nbsp;tiempo.</p>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/telefonofexible.jpg',1)"><img src="imagenes/flexible2.png" width="299" height="168" id="Image12"></a></p>
+      <p>2.-El Proyecto Ara es la visión de Google con respecto al  futuro de los teléfonos inteligentes. En lugar de tener que comprar un nuevo  dispositivo cada pocos años —esto con el fin de obtener las mejores y más  recientes actualizaciones y especificaciones— la compañía quiere impulsar los  llamados teléfonos modulares. Esto significa que si la tecnología del altavoz o  de la cámara mejoran, podrás simplemente comprar esas partes y ponerlas  teléfono, sustituyendo los módulos antiguos.</p>
+      <p>&nbsp;</p>
+       <div data-role="collapsible" data-content-theme="false">
+    <h1>Imágen:</h1>
+     <div>
+      <p>Proyecto Ara</p>
+      <br>
+     </div>
+     <div>
+      <img src="imagenes/proyectoAra.jpg">
+     </div>
+    </div>
+      <p> 3.-La penúltima maravilla tecnológica de Samsung se  llama&nbsp;Galaxy 6&nbsp;y viene acompañado de otro modelo denominado S6 Edge  que se caracteriza por sus dos pantallas curvas en los laterales.      </p>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/curva2.png',1)"><img src="imagenes/curva1.png" width="299" height="168" id="Image13"></a></p>
+      <p>&nbsp;</p>
+    </div>
+   </div>
+   <div data-role="footer" data-theme="c" data-position="fixed">
+    <h4>Aplicacion Dos, ALFG</h4>
+   </div>
+ </div>
+ </div>
+ 
+</body>
+ </html>
+
+   
